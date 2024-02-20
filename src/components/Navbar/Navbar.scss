@@ -1,0 +1,38 @@
+.navbar-container {
+  height: 88px;
+  background-color: #000000;
+  color: #efefef;
+  position: sticky;
+  top: 0px;
+
+  .search-input-container {
+    > img {
+      position: absolute;
+      padding: 10px;
+    }
+
+    .search-input {
+      height: 40px;
+      width: 25rem;
+      padding-inline: 35px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+
+      &::placeholder {
+        color: #a9a9a9;
+        font-size: 14px;
+      }
+    }
+  }
+
+  > .right-section {
+    > img {
+      height: 2rem;
+    }
+  }
+}
