@@ -1,0 +1,12 @@
+.shop-category-container {
+  .shop-category-container_title {
+    margin-block: 1.5rem;
+  }
+
+  .shop-category-container__card-container {
+    margin-block: 1.5rem;
+    gap: 20px;
+    flex-wrap: wrap;
+    transition: flex-wrap 0.5s ease;
+  }
+}

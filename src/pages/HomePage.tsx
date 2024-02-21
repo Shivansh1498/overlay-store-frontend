@@ -1,11 +1,18 @@
 import { FC } from "react";
-import { Categories, Footer, Navbar, Products } from "../components";
+import {
+  DesignCategory,
+  Footer,
+  Navbar,
+  Products,
+  ShopCategory,
+} from "../components";
 
 const HomePage: FC = () => {
   return (
     <div className="home-container">
       <Navbar />
-      <Categories />
+      <ShopCategory />
+      <DesignCategory />
       <Products />
       <Footer />
     </div>
