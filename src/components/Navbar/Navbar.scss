@@ -4,6 +4,11 @@
   color: #efefef;
   position: sticky;
   top: 0px;
+  gap: 10px;
+
+  .navbar-container_title {
+    display: inline-block;
+  }
 
   .search-input-container {
     > img {
@@ -13,7 +18,7 @@
 
     .search-input {
       height: 40px;
-      width: 25rem;
+      width: 35vw;
       padding-inline: 35px;
       border: none;
       outline: none;
@@ -31,8 +36,23 @@
   }
 
   > .right-section {
+    gap: 10px;
+
     > img {
       height: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-container {
+    .navbar-container_title {
+      display: none;
+    }
+    > .right-section {
+      > img {
+        height: 1.3rem;
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
-.px-3 {
-  padding-inline: 3rem;
+.px-page-default {
+  padding-inline: 2rem;
 }
 
 // Flex Classes
@@ -15,18 +15,6 @@
   flex-direction: column;
 }
 
-.flex-gap-1 {
-  gap: 1rem;
-}
-
-.flex-gap-2 {
-  gap: 2rem;
-}
-
-.flex-gap-3 {
-  gap: 3rem;
-}
-
 .justify-content-center {
   justify-content: center;
 }
@@ -37,4 +25,10 @@
 
 .align-items-center {
   align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .px-page-default {
+    padding-inline: 1rem;
+  }
 }
