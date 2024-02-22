@@ -3,7 +3,7 @@ import {
   DesignCategory,
   Footer,
   Navbar,
-  Products,
+  Product,
   ShopCategory,
 } from "../components";
 
@@ -13,7 +13,7 @@ const HomePage: FC = () => {
       <Navbar />
       <ShopCategory />
       <DesignCategory />
-      <Products />
+      <Product />
       <Footer />
     </div>
   );
