@@ -1,22 +1,26 @@
 import { FC } from "react";
 import { ProductCardProps } from "../../../types/ProductCard";
-import "./ProductCard.scss";
+import styles from "./ProductCard.module.scss";
 
 const ProductCard: FC<ProductCardProps> = ({ title, image, price }) => {
   return (
-    <div className="product-card-container flex flex-col">
+    <div className={`${styles.productCardContainer} flex flex-col`}>
       <img
         src={image}
         alt={title}
         loading="lazy"
-        className="product-card-container_image"
+        className={styles.productCardContainer_image}
       />
-      <div className="product-card-container_image-details flex flex-col">
-        <p className="title">{title}</p>
-        <div className="product-card-container_image-details-quantity-price-section flex justify-content-space-between align-items-center">
-          <span className="price">
+      <div
+        className={`${styles.productCardContainer_imageDetails} flex flex-col`}
+      >
+        <p className={styles.title}>{title}</p>
+        <div
+          className={`${styles.productCardContainer_imageDetailsQuantityPriceSection} flex justify-content-space-between align-items-center`}
+        >
+          <span className={styles.price}>
             ₹ {price}
-            <span className="quantity">/ 1 pc</span>
+            <span className={styles.quantity}>/ 1 pc</span>
           </span>
           <span>
             <input
@@ -28,7 +32,7 @@ const ProductCard: FC<ProductCardProps> = ({ title, image, price }) => {
             />
           </span>
         </div>
-        <button className="add-to-cart-btn">Add to cart</button>
+        <button className={styles.addToCartBtn}>Add to cart</button>
       </div>
     </div>
   );

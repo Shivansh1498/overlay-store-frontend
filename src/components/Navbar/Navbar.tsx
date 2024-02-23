@@ -6,24 +6,26 @@ import {
   SearchIcon,
   ShoppingCartIcon,
 } from "../../assets/icons";
-import "./Navbar.scss";
+import styles from "./Navbar.module.scss";
 
 const Navbar: FC = () => {
   return (
-    <nav className="navbar-container px-page-default flex justify-content-space-between align-items-center">
+    <nav
+      className={`${styles.navbarContainer} px-page-default flex justify-content-space-between align-items-center`}
+    >
       <h1>
         <img src={MobileIcon} alt="heart icon" />
-        <span className="navbar-container_title">Overlay Store</span>
+        <span className={styles.navbarContainer_title}>Overlay Store</span>
       </h1>
-      <div className="search-input-container">
+      <div className={styles.searchInputContainer}>
         <img src={SearchIcon} alt="heart icon" />
         <input
           type="text"
-          className="search-input"
+          className={styles.searchInput}
           placeholder="Search for mobile skins"
         />
       </div>
-      <div className="right-section flex align-items-center">
+      <div className={`${styles.rightSection} flex align-items-center`}>
         <img src={HeartIcon} alt="heart icon" />
         <img src={ShoppingCartIcon} alt="shopping cart icon" />
         <img src={AvatarIcon} alt="avatar icon" />

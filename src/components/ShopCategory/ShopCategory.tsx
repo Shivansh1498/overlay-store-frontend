@@ -1,13 +1,13 @@
 import { FC } from "react";
 import { CategoryCard } from "..";
 import { ShopCategoryCardData } from "../../data/ShopCategoryCardData";
-import "./ShopCategory.scss";
+import styles from "./ShopCategory.module.scss";
 
 const ShopCategory: FC = () => {
   return (
-    <div className="shop-category-container px-page-default">
-      <h2 className="shop-category-container_title">Shop by Categories</h2>
-      <div className="shop-category-container__card-container flex">
+    <div className={`${styles.shopCategoryContainer} px-page-default`}>
+      <h2 className={styles.shopCategoryContainer_title}>Shop by Categories</h2>
+      <div className={`${styles.shopCategoryContainer__cardContainer} flex`}>
         {ShopCategoryCardData.map((category) => (
           <CategoryCard
             key={category.id}

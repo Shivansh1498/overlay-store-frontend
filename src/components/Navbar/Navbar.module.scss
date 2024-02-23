@@ -1,4 +1,4 @@
-.navbar-container {
+.navbarContainer {
   height: 88px;
   background-color: #000000;
   color: #efefef;
@@ -6,17 +6,17 @@
   top: 0px;
   gap: 10px;
 
-  .navbar-container_title {
+  .navbarContainer_title {
     display: inline-block;
   }
 
-  .search-input-container {
+  .searchInputContainer {
     > img {
       position: absolute;
       padding: 10px;
     }
 
-    .search-input {
+    .searchInput {
       height: 40px;
       width: 35vw;
       padding-inline: 35px;
@@ -35,7 +35,7 @@
     }
   }
 
-  > .right-section {
+  > .rightSection {
     gap: 10px;
 
     > img {
@@ -45,11 +45,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .navbar-container {
-    .navbar-container_title {
+  .navbarContainer {
+    .navbarContainer_title {
       display: none;
     }
-    > .right-section {
+    > .rightSection {
       > img {
         height: 1.3rem;
       }

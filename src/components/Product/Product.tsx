@@ -1,14 +1,16 @@
 import { FC } from "react";
 import { ProductCard } from "../";
-import "./Product.scss";
+import styles from "./Product.module.scss";
 
 const Product: FC = () => {
   return (
     <>
-      <div className="product-container px-page-default">
-        <h2 className="product-container_title">Products</h2>
-        <p className="product-container_sub-title">Showing 112 results</p>
-        <div className="product-container__card-container flex flex-wrap">
+      <div className={`${styles.productContainer} px-page-default`}>
+        <h2 className={styles.productContainer_title}>Products</h2>
+        <p className={styles.productContainer_subTitle}>Showing 112 results</p>
+        <div
+          className={`${styles.productContainer__cardContainer} flex flex-wrap`}
+        >
           {Array.from({ length: 10 }).map((_, idx) => (
             <ProductCard
               key={idx}

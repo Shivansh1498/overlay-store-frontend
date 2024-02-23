@@ -1,0 +1,11 @@
+.designCategoryContainer {
+  .designCategoryContainer_title {
+    margin-top: 3.5rem;
+  }
+
+  .designCategoryContainer__cardContainer {
+    margin-block: 1.5rem;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
