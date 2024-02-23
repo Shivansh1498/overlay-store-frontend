@@ -21,3 +21,11 @@ export { default as LaptopIcon } from "./design_category_icons/laptop.png";
 export { default as CreditCardIcon } from "./design_category_icons/credit_card.png";
 export { default as SolarPanelIcon } from "./design_category_icons/solar_panel.png";
 export { default as FreeCodeCampIcon } from "./design_category_icons/free_code_camp.png";
+
+// Footer Icons
+export { default as facebookIcon } from "./footer_icons/facebookIcon.png";
+export { default as instagramIcon } from "./footer_icons/instagramIcon.png";
+export { default as localPhoneIcon } from "./footer_icons/localPhoneIcon.png";
+export { default as localPostOfficeIcon } from "./footer_icons/localPostOfficeIcon.png";
+export { default as shoppingBasketIcon } from "./footer_icons/shoppingBasketIcon.png";
+export { default as twitterIcon } from "./footer_icons/twitterIcon.png";

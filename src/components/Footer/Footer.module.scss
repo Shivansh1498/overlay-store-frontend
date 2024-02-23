@@ -1,0 +1,55 @@
+.footerContainer {
+  gap: 2rem;
+  padding: 2rem;
+  min-height: 222px;
+  background-color: #fff;
+  box-shadow: 2px -2px 10px rgba(3, 3, 3, 0.1) inset;
+
+  .leftSection {
+    gap: 2.5rem;
+    .leftSectionUpper {
+      p:first-child {
+        color: #000;
+        font-size: 24px;
+        gap: 15px;
+        > img {
+          width: 32px;
+        }
+      }
+      .subtitle {
+        margin-top: 7px;
+        font-size: 14px;
+      }
+    }
+    .leftSectionLower {
+      gap: 1rem;
+    }
+  }
+
+  .rightSection {
+    gap: 2.5rem;
+    .rightSectionUpper {
+      p:first-child {
+        color: #000;
+        font-size: 12px;
+      }
+      p:last-child {
+        color: #000;
+        font-size: 16px;
+      }
+    }
+    .rightSectionLower {
+      p {
+        gap: 10px;
+        margin-bottom: 5px;
+        color: #000;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+    }
+  }
+
+  img {
+    width: 24px;
+  }
+}
