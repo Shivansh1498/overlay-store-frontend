@@ -1,9 +1,10 @@
 .navbarContainer {
   height: 88px;
-  background-color: #7f7f7f;
+  background-color: #2a292e;
   position: sticky;
   top: 0px;
   gap: 10px;
+  z-index: 1;
 
   .navbarContainer_title {
     color: #fff;
