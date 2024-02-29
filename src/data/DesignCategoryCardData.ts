@@ -11,7 +11,7 @@ import {
   PercentIcon,
   SolarPanelIcon,
   UtensilsIcon,
-} from "../assets/icons";
+} from "../assets";
 import { CategoryCardProps } from "../types/CategoryCard";
 
 export const DesignCategoryCardData: CategoryCardProps[] = [

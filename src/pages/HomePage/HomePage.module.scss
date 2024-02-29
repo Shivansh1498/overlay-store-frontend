@@ -1,0 +1,64 @@
+.homeContainer {
+  .imageBanner {
+    height: 385px;
+    overflow: hidden;
+    padding: 1.5rem 1rem;
+
+    .dummyBanner1,
+    .dummyBanner2 {
+      flex: 1;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .laptopAccessories {
+      position: absolute;
+      padding: 7rem 2rem;
+      color: #fff;
+      text-align: center;
+      gap: 1.5rem;
+
+      h1 {
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+      }
+
+      .buttonContainer {
+        gap: 1rem;
+
+        button {
+          all: unset;
+          padding: 0.7rem 2.5rem;
+          border: 1px solid #fff;
+          text-transform: uppercase;
+          font-size: 0.8rem;
+          font-weight: bold;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1116px) {
+  .homeContainer {
+    .imageBanner {
+      flex-direction: column;
+      height: auto;
+
+      .dummyBanner1,
+      .dummyBanner2 {
+        img {
+          height: 200px;
+        }
+      }
+
+      .laptopAccessories {
+        padding: 1rem 3rem;
+      }
+    }
+  }
+}

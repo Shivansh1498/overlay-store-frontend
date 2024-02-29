@@ -5,7 +5,7 @@ import {
   localPostOfficeIcon,
   shoppingBasketIcon,
   whatsappIcon,
-} from "../../assets/icons";
+} from "../../assets";
 import styles from "./Footer.module.scss";
 
 const Footer: FC = () => {

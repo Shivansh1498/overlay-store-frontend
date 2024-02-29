@@ -5,7 +5,7 @@ import {
   MobileIcon,
   SearchIcon,
   ShoppingCartIcon,
-} from "../../assets/icons";
+} from "../../assets";
 import styles from "./Navbar.module.scss";
 
 const Navbar: FC = () => {

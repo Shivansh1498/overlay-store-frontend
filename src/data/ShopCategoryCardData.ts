@@ -1,4 +1,4 @@
-import { CookieIcon } from "../assets/icons";
+import { CookieIcon } from "../assets";
 import { CategoryCardProps } from "../types/CategoryCard";
 
 export const ShopCategoryCardData: CategoryCardProps[] = [
