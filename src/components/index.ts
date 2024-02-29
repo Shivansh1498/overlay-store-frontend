@@ -5,3 +5,4 @@ export { default as DesignCategory } from "./DesignCategory/DesignCategory";
 export { default as ShopCategory } from "./ShopCategory/ShopCategory";
 export { default as Navbar } from "./Navbar/Navbar";
 export { default as Footer } from "./Footer/Footer";
+export { default as AccessoriesSection } from "./AccessoriesSection/AccessoriesSection";

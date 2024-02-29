@@ -34,3 +34,6 @@ export { default as whatsappIcon } from "./icons/footer_icons/whatsappIcon.png";
 // Dummy Photos
 export { default as dummyBanner1 } from "./dummy/dummyBanner1.png";
 export { default as dummyBanner2 } from "./dummy/dummyBanner2.png";
+export { default as accessoriesPhoto1 } from "./dummy/accessoriesPhoto1.png";
+export { default as accessoriesPhoto2 } from "./dummy/accessoriesPhoto2.png";
+export { default as accessoriesPhoto3 } from "./dummy/accessoriesPhoto3.png";

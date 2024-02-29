@@ -1,6 +1,12 @@
 import { FC } from "react";
 import { dummyBanner1, dummyBanner2 } from "../../assets";
-import { DesignCategory, Footer, Navbar, Product } from "../../components";
+import {
+  AccessoriesSection,
+  DesignCategory,
+  Footer,
+  Navbar,
+  Product,
+} from "../../components";
 import styles from "./HomePage.module.scss";
 
 const HomePage: FC = () => {
@@ -28,6 +34,7 @@ const HomePage: FC = () => {
           <img src={dummyBanner2} alt="dummy banner 2" />
         </div>
       </section>
+      <AccessoriesSection />
       <DesignCategory />
       <Product />
       <Footer />
