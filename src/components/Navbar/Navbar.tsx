@@ -15,7 +15,7 @@ const Navbar: FC = () => {
     >
       <h1>
         <img src={MobileIcon} alt="heart icon" />
-        <span className={styles.navbarContainer_title}>Overlay Store</span>
+        <span className={styles.navbarContainer_title}>Skinfinity Store</span>
       </h1>
       <div className={styles.searchInputContainer}>
         <img src={SearchIcon} alt="heart icon" />

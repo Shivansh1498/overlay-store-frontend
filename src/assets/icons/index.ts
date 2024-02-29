@@ -29,3 +29,4 @@ export { default as localPhoneIcon } from "./footer_icons/localPhoneIcon.png";
 export { default as localPostOfficeIcon } from "./footer_icons/localPostOfficeIcon.png";
 export { default as shoppingBasketIcon } from "./footer_icons/shoppingBasketIcon.png";
 export { default as twitterIcon } from "./footer_icons/twitterIcon.png";
+export { default as whatsappIcon } from "./footer_icons/whatsappIcon.png";

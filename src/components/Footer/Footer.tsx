@@ -1,24 +1,23 @@
 import { FC } from "react";
 import {
-  facebookIcon,
   instagramIcon,
   localPhoneIcon,
   localPostOfficeIcon,
   shoppingBasketIcon,
-  twitterIcon,
+  whatsappIcon,
 } from "../../assets/icons";
 import styles from "./Footer.module.scss";
 
 const Footer: FC = () => {
   return (
     <div
-      className={`${styles.footerContainer} flex justify-content-space-between align-items-center flex-wrap px-page-default`}
+      className={`${styles.footerContainer} flex justify-content-space-between align-items-center flex-wrap`}
     >
       <div className={`${styles.leftSection} flex flex-col`}>
         <div className={styles.leftSectionUpper}>
           <p className={`flex align-items-center`}>
             <img src={shoppingBasketIcon} alt="shopping bag icon" />
-            ontheshelf.
+            Skinfinity
           </p>
           <p className={styles.subtitle}>
             Get your mobile and laptop skins delivered to your doorstep!
@@ -26,8 +25,7 @@ const Footer: FC = () => {
         </div>
         <div className={`${styles.leftSectionLower} flex`}>
           <img src={instagramIcon} alt="instagram icon" />
-          <img src={facebookIcon} alt="facebook icon" />
-          <img src={twitterIcon} alt="twitter icon" />
+          <img src={whatsappIcon} alt="whatsapp icon" />
         </div>
       </div>
       <div className={`${styles.rightSection} flex flex-col`}>
@@ -37,12 +35,12 @@ const Footer: FC = () => {
         </div>
         <div className={styles.rightSectionLower}>
           <p className={`flex align-items-center`}>
-            <img src={localPhoneIcon} alt="phone icon" />( + 123 ) 000 111 222
-            333
+            <img src={localPhoneIcon} alt="phone icon" />
+            +919082273107
           </p>
-          <p className={`flex align-items-center`}>
+          <p className={`flex align-items-center ${styles.mail}`}>
             <img src={localPostOfficeIcon} alt="mail icon" />
-            ontheshelf@uizard.io
+            <span>anuradha.singh2580@gmail.com</span>
           </p>
         </div>
       </div>

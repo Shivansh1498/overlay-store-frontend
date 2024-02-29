@@ -1,12 +1,12 @@
 .navbarContainer {
   height: 88px;
-  background-color: #000000;
-  color: #efefef;
+  background-color: #7f7f7f;
   position: sticky;
   top: 0px;
   gap: 10px;
 
   .navbarContainer_title {
+    color: #fff;
     display: inline-block;
   }
 
@@ -36,10 +36,10 @@
   }
 
   > .rightSection {
-    gap: 10px;
+    gap: 1.3rem;
 
     > img {
-      height: 2rem;
+      height: 1.5rem;
     }
   }
 }
