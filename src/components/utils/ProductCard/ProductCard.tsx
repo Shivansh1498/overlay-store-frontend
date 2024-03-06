@@ -1,16 +1,17 @@
 import { FC } from "react";
+import { Link } from "react-router-dom";
 import { ProductCardProps } from "../../../types/ProductCard";
 import styles from "./ProductCard.module.scss";
 
 const ProductCard: FC<ProductCardProps> = ({ title, image, price }) => {
   return (
     <div className={`${styles.productCardContainer} flex flex-col`}>
-      <img
-        src={image}
-        alt={title}
-        loading="lazy"
+      <Link
+        to={"/product-detail/1"}
         className={styles.productCardContainer_image}
-      />
+      >
+        <img src={image} alt={title} loading="lazy" />
+      </Link>
       <div
         className={`${styles.productCardContainer_imageDetails} flex flex-col`}
       >

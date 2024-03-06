@@ -7,16 +7,19 @@ import {
   ShoppingCartIcon,
 } from "../../assets";
 import styles from "./Navbar.module.scss";
+import { Link } from "react-router-dom";
 
 const Navbar: FC = () => {
   return (
     <nav
       className={`${styles.navbarContainer} px-page-default flex justify-content-space-between align-items-center`}
     >
-      <h1>
-        <img src={MobileIcon} alt="heart icon" />
-        <span className={styles.navbarContainer_title}>Skinfinity Store</span>
-      </h1>
+      <Link to={"/"}>
+        <h1>
+          <img src={MobileIcon} alt="heart icon" />
+          <span className={styles.navbarContainer_title}>Skinfinity Store</span>
+        </h1>
+      </Link>
       <div className={styles.searchInputContainer}>
         <img src={SearchIcon} alt="heart icon" />
         <input
